@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=StringUtilities
+comment0.text=\n\ Write\ a\ description\ of\ class\ StringUtilities\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=word
+comment1.target=java.lang.Character\ getMiddleCharacter(java.lang.String)
+comment2.params=value\ charToRemove
+comment2.target=java.lang.String\ removeCharacter(java.lang.String,\ char)
+comment3.params=value
+comment3.target=java.lang.String\ getLastWord(java.lang.String)
+comment4.params=baseValue\ valueToBeAdded
+comment4.target=java.lang.String\ concatenate(java.lang.String,\ java.lang.String)
+comment5.params=valueToBeReversed
+comment5.target=java.lang.String\ reverse(java.lang.String)
+comment6.params=value
+comment6.target=java.lang.String\ returnInput(java.lang.String)
+numComments=7

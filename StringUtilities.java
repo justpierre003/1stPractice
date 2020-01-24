@@ -1,52 +1,36 @@
-
-public class StringUtilities {
-    /**
-     * @param input value to be returned
-     * @return `input`
-     */
-    public String returnInput(String input) {
-        return null;
+/**
+ * Write a description of class StringUtilities here.
+ *
+ * @author (your name)
+ * @version (a version number or a date)
+ */
+public class StringUtilities
+{
+   public Character getMiddleCharacter(String word) {
+        int middle = word.length()/2;
+        char m = word.charAt(middle);
+        return(m);
     }
-
-    /**
-     * @param baseValue value to be added to
-     * @param valueToBeAdded value to add
-     * @return the concatenation of `baseValue` and `valueToBeAdded`
-     */
-    public String concatenate(String baseValue, String valueToBeAdded) {
-        return null;
+   public String removeCharacter(String value, char charToRemove) {
+        String m = Character.toString(charToRemove);
+        return(value.replace(m,""));
     }
-
-    /**
-     * @param valueToBeReversed value to be reversed
-     * @return identical string with characters in opposite order
-     */
-    public String reverse(String valueToBeReversed) {
-        return null;
+   public String getLastWord(String value) {
+        return(value.substring(value.lastIndexOf(" ")+1));
     }
-
-    /**
-     * @param word word to get middle character of
-     * @return middle character of `word`
-     */
-    public Character getMiddleCharacter(String word) {
-        return null;
+    
+   public String concatenate(String baseValue, String valueToBeAdded) {
+        return(baseValue + valueToBeAdded);
     }
-
-    /**
-     * @param value value to have character removed from
-     * @param charToRemove character to be removed from `value`
-     * @return `value` with char of value `charToRemove` removed
-     */
-    public String removeCharacter(String value, Character charToRemove) {
-        return null;
+   public String reverse(String valueToBeReversed) {
+        String reversed = "";
+        for(int i = valueToBeReversed.length()-1;i >= 0;i-- ) {
+            reversed = reversed + valueToBeReversed.charAt(i);
+        }
+        
+        return(reversed);
     }
-
-    /**
-     * @param sentence String delimited by spaces representative of a sentence
-     * @return last `word` in sentence
-     */
-    public String getLastWord(String sentence) {
-        return null;
+    public String returnInput(String value){
+        return(value);
     }
 }

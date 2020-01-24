@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=MathUtilities
+comment0.text=\n\ Write\ a\ description\ of\ class\ MathUtilities\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=num1\ num2
+comment1.target=int\ add(int,\ int)
+comment2.params=num1\ num2
+comment2.target=double\ add(double,\ double)
+comment3.params=number
+comment3.target=double\ half(int)
+comment4.params=number
+comment4.target=boolean\ isOdd(int)
+comment5.params=number
+comment5.target=int\ square(int)
+numComments=6

@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=LoopFun
+comment1.params=number
+comment1.target=int\ factorial(int)
+comment2.params=phrase
+comment2.target=java.lang.String\ acronym(java.lang.String)
+comment3.params=word
+comment3.target=java.lang.String\ encrypt(java.lang.String)
+numComments=4
